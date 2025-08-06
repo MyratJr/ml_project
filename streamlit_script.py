@@ -12,6 +12,7 @@ st.write("Enter the number of hours studied to predict the test score")
 # User input
 hours = st.number_input("Hours studied:", min_value=0.0, step=2.0)
 
+
 if st.button("Predict"):
     try:
         data=[[hours]]
